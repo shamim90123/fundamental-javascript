@@ -5,3 +5,6 @@ let haveCar = null;
 let haveHouse = undefined;
 const fullName = {};
 
+
+
+// https://javascript.info/types
