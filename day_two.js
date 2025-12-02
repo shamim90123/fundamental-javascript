@@ -26,7 +26,6 @@ console.log("OR:", age2 >= 18 || hasNID);   // true
 // NOT
 console.log("NOT:", !hasNID);               // false
 
-
 let x = 10;
 
 x += 5;  // 15
@@ -35,7 +34,6 @@ x *= 2;  // 24
 x /= 4;  // 6
 
 console.log("Final x =", x);
-
 
 let num = 689;
 
