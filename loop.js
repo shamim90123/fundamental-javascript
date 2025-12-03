@@ -33,6 +33,28 @@ do {
     do_while++;
 } while (do_while <= 5);
 
+
+// FOR...OF: loop through an array
+let fruits = ["Apple", "Mango", "Banana"];
+
+for (let item of fruits) {
+  console.log(item);
+}
+
+// FOR...IN: loop through an object
+let person = {
+  name: "Shamim",
+  age: 28,
+  city: "Dhaka"
+};
+
+for (let key in person) {
+  console.log(key, ":", person[key]);
+}
+
+
 console.log('last');
 console.log('last');
 console.log('last');
+
+
