@@ -16,3 +16,23 @@ for (let i =0; i <= 100; i++ ){
 }
 
 console.log("sum is ", sum)
+
+// WHILE loop: countdown from 10 to 1
+let number = 10;
+
+while(number > 0) {
+    console.log('countdown from 10 to 1', number)
+    number --;
+}
+
+// DO-WHILE: print numbers 1 to 5
+let do_while = 1;
+
+do {
+    console.log('do_while', do_while);
+    do_while++;
+} while (do_while <= 5);
+
+console.log('last');
+console.log('last');
+console.log('last');
