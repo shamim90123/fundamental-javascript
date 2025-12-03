@@ -52,6 +52,18 @@ for (let key in person) {
   console.log(key, ":", person[key]);
 }
 
+// Break & Continue
+for(let i=1; i<=20; i++) {
+    if (i === 10) {
+        continue;
+    }
+
+    if (i === 15) {
+        break;
+    }
+
+    console.log("Break & Continue", i)
+}
 
 console.log('last');
 console.log('last');
