@@ -22,3 +22,19 @@ console.log("sum = ", result)
 // arrow function
 const multiply = (x,y) => x *y;
 console.log(multiply(4,6));
+
+
+// default parameter
+function getName(name = "Guest") {
+    console.log("default parameter", name);
+}
+getName();
+getName('Admin');
+
+// function expression 
+const square = function(num) {
+    return num * num;
+}
+
+console.log(square(7));
+
