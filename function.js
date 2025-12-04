@@ -38,3 +38,14 @@ const square = function(num) {
 
 console.log(square(7));
 
+// callback
+function process(callback) {
+  callback();   // calling callback
+}
+
+function showMessage() {
+  console.log("Callback executed!");
+}
+process(showMessage);
+// for details function_callback.js
+
