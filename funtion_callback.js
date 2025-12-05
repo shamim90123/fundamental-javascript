@@ -22,3 +22,12 @@ calculate(10, 20, function(sum) {
 });
 
 
+//MID Level Callback Function
+// setTimeout callback (Async)
+console.log("start")
+
+setTimeout(() => {
+  console.log("Hi, this ran after 2 seconds");
+}, 2000)
+
+console.log('end');
